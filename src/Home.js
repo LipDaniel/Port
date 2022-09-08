@@ -6,7 +6,6 @@ import About from './components/About';
 import Resume from "./components/Resume";
 import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
-import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -41,10 +40,9 @@ export default class Home extends Component {
         <Resume/>
         <Experience/>
         <Portfolio/>
-        <Blog/>
         <Contact Link={Link}/>
         <Footer/>
-    </>
+      </>
     )
   }
 }

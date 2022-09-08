@@ -5,7 +5,6 @@ class Header extends Component{
         const {Link} = this.props;
     return (
         <>
-            <a href="components.html" className="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i className="ti-shift-left-alt"></i> Components</a>
             <header className="header">
                 <div className="container">
                     <ul className="social-icons pt-3">
@@ -54,9 +53,6 @@ class Header extends Component{
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
                                 <a href="#portfolio" className="nav-link">Portfolio</a>
-                            </li>
-                            <li className="nav-item">
-                                <a href="#blog" className="nav-link">Blog</a>
                             </li>
                             <li className="nav-item last-item">
                                 <a href="#contact" className="nav-link">Contact</a>
