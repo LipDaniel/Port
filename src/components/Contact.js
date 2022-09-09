@@ -1,12 +1,16 @@
 import React, { Component } from 'react'
-import ReCAPTCHA from 'react-recaptcha'
+import ReCAPTCHA from 'react-google-recaptcha'
+ 
 
-const callback = function () {};
-const expiredCallback = function () {};
 export default class Contact extends Component {
-
-     
-  render() {
+    constructor(props){
+        super(props);
+        this.state = {isVerified: false}
+    }
+    render() {
+      const handleOnChange = () => {
+          this.setState({isVerified: true});
+      }
     const {Link} = this.props;
     return (
         <div className="section contact" id="contact">
@@ -27,13 +31,12 @@ export default class Contact extends Component {
                                 <textarea className="form-control" id="" placeholder="Message *" rows="7" required></textarea>
                             </div>
                             <ReCAPTCHA
-                                sitekey="6Ld_9uQhAAAAAKFxf8v-56AZoLCrpw93AE65GzWP"
-                                callback={callback}
-                                expiredCallback={expiredCallback}
+                                sitekey="6LdCBuUhAAAAAGxl-HXHo1mGgnZKs4ntSg-LeLff"
+                                onChange={handleOnChange}
                                 locale="en"
                             />
-                            <div className="form-group">
-                                <button type="submit" className="form-control btn btn-primary" >Send Message</button>
+                            <div className="form-group mt-3">
+                                <button type="submit" disabled={!this.state.isVerified} className="form-control btn btn-primary" >Send Message</button>
                             </div>
                         </div>
                     </div>
