@@ -31,7 +31,7 @@ export default class Contact extends Component {
                                 <textarea className="form-control" id="" placeholder="Message *" rows="7" required></textarea>
                             </div>
                             <ReCAPTCHA
-                                sitekey="6LdCBuUhAAAAAGxl-HXHo1mGgnZKs4ntSg-LeLff"
+                                sitekey="6Ld9E-UhAAAAAHheLWdVizJiV12m2f2RMUE-iHOU"
                                 onChange={handleOnChange}
                                 locale="en"
                             />
