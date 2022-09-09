@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
+import ReCAPTCHA from 'react-recaptcha'
 
+const callback = function () {};
+const expiredCallback = function () {};
 export default class Contact extends Component {
+
+     
   render() {
     const {Link} = this.props;
     return (
@@ -21,6 +26,12 @@ export default class Contact extends Component {
                             <div className="form-group">
                                 <textarea className="form-control" id="" placeholder="Message *" rows="7" required></textarea>
                             </div>
+                            <ReCAPTCHA
+                                sitekey="6Ld_9uQhAAAAAKFxf8v-56AZoLCrpw93AE65GzWP"
+                                callback={callback}
+                                expiredCallback={expiredCallback}
+                                locale="en"
+                            />
                             <div className="form-group">
                                 <button type="submit" className="form-control btn btn-primary" >Send Message</button>
                             </div>
