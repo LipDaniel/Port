@@ -71,6 +71,10 @@ export default class Resume extends Component {
                             <div className="progress mb-2" style={style}>
                                 <div className="progress-bar bg-danger" role="progressbar" style={{width: "70%"}} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
                             </div>
+                            <h6>Github</h6>
+                            <div className="progress mb-2" style={style}>
+                                <div className="progress-bar bg-danger" role="progressbar" style={{width: "75%"}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                            </div>
                         </div>
                     </div>
                     <div className="card">
