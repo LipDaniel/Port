@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import file from "../CV/Fullstack_web_Developer_Nguyen_Nhan_CVHay_vn.pdf";
 
 class Header extends Component{
     render(){
@@ -22,7 +23,7 @@ class Header extends Component{
                         <h4 className="header-subtitle" >Hello, I am</h4>
                         <h1 className="header-title">Nhan Nguyen</h1>
                         <h6 className="header-mono" >Fullstack web developer</h6>
-                        <a href="#" download className="btn btn-outline-danger">Download My CV</a>
+                        <a href={file} download className="btn btn-outline-danger">Download My CV</a>
                     </div>
                 </div>
             </header>
@@ -52,7 +53,7 @@ class Header extends Component{
                         </ul>
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                                <a href="#portfolio" className="nav-link">Portfolio</a>
+                                <a href="#portfolio" className="nav-link">Projects</a>
                             </li>
                             <li className="nav-item last-item">
                                 <a href="#contact" className="nav-link">Contact</a>
