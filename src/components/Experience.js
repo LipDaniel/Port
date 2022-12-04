@@ -12,7 +12,7 @@ export default class Experience extends Component {
                             <div className="m-auto"><i className="ti-alarm-clock icon-xl"></i></div>
                         </div>
                         <div className="col-7 text-left py-3">
-                            <h1 className="text-danger font-weight-bold font40">500</h1>
+                            <h1 className="text-danger font-weight-bold font40">800+</h1>
                             <p className="text-light mb-1">Hours Worked</p>
                         </div>
                     </div>
@@ -23,7 +23,7 @@ export default class Experience extends Component {
                             <div className="m-auto"><i className="ti-layers-alt icon-xl"></i></div>
                         </div>
                         <div className="col-7 text-left py-3">
-                            <h1 className="text-danger font-weight-bold font40">2</h1>
+                            <h1 className="text-danger font-weight-bold font40">6</h1>
                             <p className="text-light mb-1">Project Finished</p>
                         </div>
                     </div>

@@ -20,13 +20,13 @@ export default class Portfolio extends Component {
                 <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                     <div className="row">
                         <div className="col-md-6">
-                            <iframe width="550" height="375" src="https://www.youtube.com/embed/FOOEn4aIbM8" title="vnhp online aution" frameBorder="4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>                       
+                            <iframe className='img-fluid h-100' width="550" height="375" src="https://www.youtube.com/embed/FOOEn4aIbM8" title="vnhp online aution" frameBorder="4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>                       
                         </div>
                         <div className="col-md-6">
                             <h4 className='text-center'>Missions in <span className='text-danger'>Online Auction Project</span></h4>
                             <div data-spy="scroll" className='pre-scrollable' data-target="#myScrollspy" data-offset="10">
                                 <h5>ADMIN PAGE</h5>
-                                <h6>FUNCTION</h6>
+                                <h6>FEATURES</h6>
                                 <p className='mb-0'>-<span className='text-danger'> Login/Logout:</span> Client won't be able to access any admin pages if they aren't logged in.</p>
                                 <p className='mb-0'>-<span className='text-danger'> Admin profile:</span> Display admin information. Client also changes their information and passwords.</p>
                                 <p className='mb-0'>-<span className='text-danger'> Dasboard:</span> I have taken data from API and have displayed revenues by charts and statistic of loyal customer.</p>
@@ -39,10 +39,10 @@ export default class Portfolio extends Component {
                                 <h6>SOFTWARE</h6>
                                 <p className='mb-0'>- Visual studio code 2019</p>
                                 <p className='mb-0'>- SQL SERVER 2019</p>
-                                <p className='mb-3'>- Github</p>
+                                <p className='mb-3'>- Git</p>
                                 <h6>TECHNOLOGY</h6>
-                                <p className='mb-0'>- ReactJS, Bootstrap, CSS (front-end)</p>
-                                <p className='mb-0'>- Laravel API (back-end)</p>
+                                <p className='mb-0'>- ReactJS, Bootstrap, CSS</p>
+                                <p className='mb-0'>- Laravel, REST API</p>
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ export default class Portfolio extends Component {
                             <h4 className='text-center'>Missions in <span className='text-danger'>Personal Health Assistant</span></h4>
                             <div data-spy="scroll" className='pre-scrollable' data-target="#myScrollspy" data-offset="10">
                                 <h5>ADMIN PAGE</h5>
-                                <h6>FUNCTION</h6>
+                                <h6>FEATURES</h6>
                                 <p className='mb-0'>-<span className='text-danger'> Login/Logout:</span> Client won't be able to access any admin page if they aren't logged in.</p>
                                 <p className='mb-0'>-<span className='text-danger'> Admin profile:</span> Display admin information. Client also changes their information and passwords.</p>
                                 <p className='mb-0'>-<span className='text-danger'> Dasboard:</span> I have taken data from API and have displayed revenues by charts and statistic of loyal customer.</p>
@@ -69,10 +69,10 @@ export default class Portfolio extends Component {
                                 <h6>SOFTWARE</h6>
                                 <p className='mb-0'>- Visual studio code 2019</p>
                                 <p className='mb-0'>- SQL SERVER 2019</p>
-                                <p className='mb-3'>- Github</p>
+                                <p className='mb-3'>- Git</p>
                                 <h6>TECHNOLOGY</h6>
-                                <p className='mb-0'>- ReactJS, Bootstrap, CSS (front-end)</p>
-                                <p className='mb-0'>- Laravel API (back-end)</p>
+                                <p className='mb-0'>- ReactJS, Bootstrap, CSS</p>
+                                <p className='mb-0'>- Laravel, REST API</p>
                             </div>
                         </div>      
                     </div>

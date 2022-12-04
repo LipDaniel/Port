@@ -45,35 +45,39 @@ export default class Resume extends Component {
                         <div className="card-body pb-2">
                             <h6>HTML5 &amp; CSS3</h6>
                             <div className="progress mb-2" style={style}>
-                                <div className="progress-bar bg-danger" role="progressbar" style={{width: "80%"}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                <div className="progress-bar bg-danger" role="progressbar" style={{width: "90%"}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
                             </div>
                             <h6>JavaScript</h6>
                             <div className="progress mb-2" style={style}>
-                                <div className="progress-bar bg-danger" role="progressbar" style={{width: "60%"}} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                                <div className="progress-bar bg-danger" role="progressbar" style={{width: "75%"}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
                             </div>
                             <h6>PHP</h6>
                             <div className="progress mb-2" style={style}>
-                                <div className="progress-bar bg-danger" role="progressbar" style={{width: "70%"}} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                <div className="progress-bar bg-danger" role="progressbar" style={{width: "80%"}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
                             </div>
-                            <h6>SQL Server</h6>
+                            <h6>MSSQL, MySQL</h6>
                             <div className="progress mb-2" style={style}>
-                                <div className="progress-bar bg-danger" role="progressbar" style={{width: "75%"}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                <div className="progress-bar bg-danger" role="progressbar" style={{width: "90%"}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
                             </div>
                             <h6>Laravel</h6>
                             <div className="progress mb-2" style={style}>
-                                <div className="progress-bar bg-danger" role="progressbar" style={{width: "80%"}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                <div className="progress-bar bg-danger" role="progressbar" style={{width: "85%"}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
                             </div>
                             <h6>ReactJS</h6>
                             <div className="progress mb-2" style={style}>
-                                <div className="progress-bar bg-danger" role="progressbar" style={{width: "60%"}} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                                <div className="progress-bar bg-danger" role="progressbar" style={{width: "75%"}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
                             </div>
                             <h6>Photoshop</h6>
                             <div className="progress mb-2" style={style}>
                                 <div className="progress-bar bg-danger" role="progressbar" style={{width: "70%"}} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
                             </div>
-                            <h6>Github</h6>
+                            <h6>Git</h6>
                             <div className="progress mb-2" style={style}>
                                 <div className="progress-bar bg-danger" role="progressbar" style={{width: "75%"}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                            </div>
+                            <h6>Java</h6>
+                            <div className="progress mb-2" style={style}>
+                                <div className="progress-bar bg-danger" role="progressbar" style={{width: "70%"}} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
                             </div>
                         </div>
                     </div>
@@ -87,7 +91,7 @@ export default class Resume extends Component {
                         <div className="card-body pb-2">
                           <h6>English</h6>
                             <div className="progress mb-2" style={style}>
-                                <div className="progress-bar bg-danger" role="progressbar" style={{width: "65%"}} aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                                <div className="progress-bar bg-danger" role="progressbar" style={{width: "75%"}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
                             </div>
                         </div>
                     </div>
