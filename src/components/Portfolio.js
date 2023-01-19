@@ -14,6 +14,9 @@ export default class Portfolio extends Component {
                 <li className="nav-item" role="presentation">
                     <a className="btn nav-link" data-toggle="pill" data-target="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Personal Health Assistant</a>
                 </li>
+                <li className="nav-item" role="presentation">
+                    <a className="btn nav-link" data-toggle="pill" data-target="#pills-real" role="tab" aria-controls="pills-real" aria-selected="false">Real Estate</a>
+                </li>
             </ul>
             <hr/>
             <div className="tab-content mt-4" id="pills-tabContent">
@@ -73,6 +76,38 @@ export default class Portfolio extends Component {
                                 <h6>TECHNOLOGY</h6>
                                 <p className='mb-0'>- ReactJS, Bootstrap, CSS</p>
                                 <p className='mb-0'>- Laravel, REST API</p>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+                <div className="tab-pane fade" id="pills-real" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div className="row">
+                        <div className="col-md-6">
+                            <iframe className='img-fluid h-100' width="550" height="360" src="https://www.youtube.com/embed/-X04Wa_7BYs?controls=0" title="real estate" frameBorder="4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        </div>
+                        <div className="col-md-6">
+                            <h4 className='text-center'>Missions in <span className='text-danger'>Real Estate</span></h4>
+                            <div data-spy="scroll" className='pre-scrollable' data-target="#myScrollspy" data-offset="10">
+                                <h5>ACCOUNTANT DEPARTMENT</h5>
+                                <h6>DESCRIPTION</h6>
+                                <p className='mb-0'>This is internal software for real estate
+                                    company. This software provides solution
+                                    for company to manage all activities so
+                                    we divided into 4 departments: Business,
+                                    Accountant, Director, Human Resources.
+                                </p>
+                                <h6>FEATURES</h6>
+                                <p className='mb-0'>-<span className='text-danger'> Design Receipt:</span> Sale Receipt, Deposit Receipt, Transfer Receipt, Cancel Receipt, Credit Receipt</p>
+                                <p className='mb-0'>- Export into pdf file</p>
+                                <p className='mb-0'>- Create a receipt when customer has paid Management all receipts</p>
+                                <p className='mb-0'>- Create an email to remind customer pay for bill before 5 days up to date</p>
+                                <p className='mb-0'>- Create notification for payment period before 5 days up to date</p>
+                                <h6>SOFTWARE</h6>
+                                <p className='mb-0'>- NetBean IDE 14</p>
+                                <p className='mb-0'>- SQL SERVER 2019</p>
+                                <p className='mb-3'>- Git</p>
+                                <h6>TECHNOLOGY</h6>
+                                <p className='mb-0'>- JavaFX, CSS, Jasper Report, MultiThread</p>
                             </div>
                         </div>      
                     </div>
