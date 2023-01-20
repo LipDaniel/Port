@@ -83,7 +83,7 @@ export default class Portfolio extends Component {
                 <div className="tab-pane fade" id="pills-real" role="tabpanel" aria-labelledby="pills-profile-tab">
                     <div className="row">
                         <div className="col-md-6">
-                            <iframe className='img-fluid h-100' width="550" height="360" src="https://www.youtube.com/embed/-X04Wa_7BYs?controls=0" title="real estate" frameBorder="4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe className='img-fluid h-100' width="550" height="360" src="https://www.youtube.com/embed/-X04Wa_7BYs" title="real estate" frameBorder="4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                         <div className="col-md-6">
                             <h4 className='text-center'>Missions in <span className='text-danger'>Real Estate</span></h4>

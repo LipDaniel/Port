@@ -9,8 +9,14 @@ export default class About extends Component {
             <div className="col-lg-4 about-card">
                 <h3 className="font-weight-light">Who am I ?</h3>
                 <span className="line mb-5"></span>
-                <h5 className="mb-3">Fullstack Developer In Our Lovely Earth</h5>
-                <p className="mt-20">My goal is to be associate with a company where I can use my skills and gain more experience while improving the company's productivity and reputation.</p>
+                <h5 className="mb-3">Fullstack Web Developer In Our Lovely Earth</h5>
+                <p className="mt-20">
+                    Hello everyone. My name is Nhan. To my friends, I’m an active and humorous guy so
+                    they love me so much. Besides that I'm highly organized and team working. And I think
+                    what makes me suitable for this position is my commitment and responsibility, I work
+                    hard and am always willing to learn more. My goal is become a team leader within 2
+                    years.
+                </p>
             </div>
             <div className="col-lg-4 about-card">
                 <h3 className="font-weight-light">Personal Info</h3>
@@ -20,7 +26,7 @@ export default class About extends Component {
                     <li><span>Email</span> : nhan.nguyenkieu317@gmail.com</li>
                     <li><span>Phone</span> : 0909.146.094 </li>
                     <li><span>Skype</span> : Nhan Nguyen </li>
-                    <li><span>Address</span> :  32 10A street, Binh Hung, Binh Chanh district, HCMC.</li>
+                    <li><span>Address</span> : Binh Hung, Binh Chanh district, HCMC.</li>
                 </ul>
                 <ul className="social-icons pt-3">
                     {Link.map((item, index) => {
