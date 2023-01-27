@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Port/static/css/main.a19015c2.css",
-    "main.js": "/Port/static/js/main.e032f16a.js",
+    "main.js": "/Port/static/js/main.fa38cdd5.js",
     "static/js/787.b2e1b36e.chunk.js": "/Port/static/js/787.b2e1b36e.chunk.js",
     "static/media/themify.svg?-fvbane": "/Port/static/media/themify.f0fc8c798eac5636249c.svg",
     "static/media/head.png": "/Port/static/media/head.ff8b5a2385f6f32af294.png",
-    "static/media/NhanNguyen_CV.pdf": "/Port/static/media/NhanNguyen_CV.a379c1bde4ae573d7f8c.pdf",
+    "static/media/NhanNguyenCV.pdf": "/Port/static/media/NhanNguyenCV.81876027410709098c35.pdf",
     "static/media/avatar.jpg": "/Port/static/media/avatar.b8922f5788d1f205aef2.jpg",
     "static/media/themify.eot": "/Port/static/media/themify.9bad94440d49256265a5.eot",
     "static/media/themify.ttf?-fvbane": "/Port/static/media/themify.eda8b94308c6f538f04a.ttf",
     "static/media/themify.woff?-fvbane": "/Port/static/media/themify.29b39089170885ae2967.woff",
     "index.html": "/Port/index.html",
     "main.a19015c2.css.map": "/Port/static/css/main.a19015c2.css.map",
-    "main.e032f16a.js.map": "/Port/static/js/main.e032f16a.js.map",
+    "main.fa38cdd5.js.map": "/Port/static/js/main.fa38cdd5.js.map",
     "787.b2e1b36e.chunk.js.map": "/Port/static/js/787.b2e1b36e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a19015c2.css",
-    "static/js/main.e032f16a.js"
+    "static/js/main.fa38cdd5.js"
   ]
 }
