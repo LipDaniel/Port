@@ -93,7 +93,7 @@ export default class Portfolio extends Component {
                             <div data-spy="scroll" className='pre-scrollable' data-target="#myScrollspy" data-offset="10">
                                 <h5>ACCOUNTANT DEPARTMENT</h5>
                                 <h6>DESCRIPTION</h6>
-                                <p className='mb-0'>This is internal software for real estate
+                                <p className='mb-3'>This is internal software for real estate
                                     company. This software provides solution
                                     for company to manage all activities so
                                     we divided into 4 departments: Business,
@@ -125,7 +125,7 @@ export default class Portfolio extends Component {
                             <div data-spy="scroll" className='pre-scrollable' data-target="#myScrollspy" data-offset="10">
                                 <h5>FULLSTACK</h5>
                                 <h6>DESCRIPTION</h6>
-                                <p className='mb-0'>
+                                <p className='mb-3'>
                                     This project specializes in selling bamboo
                                     blinds. Without payment gateway or buy
                                     directly on the website. So customer can
@@ -137,10 +137,10 @@ export default class Portfolio extends Component {
                                 <p className='mb-0'>- Embed hotline for contact: Zalo, Messenger, Facebook, Phone</p>
                                 <p className='mb-0'>- Product Management: Create, Delete, Edit.</p>
                                 <p className='mb-0'>- Banner Management: Add, Delete, Edit</p>
-                                <p className='mb-0'>- Login/Logout feature</p>
+                                <p className='mb-3'>- Login/Logout feature</p>
                                 <h6>SOFTWARE</h6>
                                 <p className='mb-0'>- Visual Studio Code</p>
-                                <p className='mb-0'>- MySQL</p>
+                                <p className='mb-3'>- MySQL</p>
                                 <h6>TECHNOLOGY</h6>
                                 <p className='mb-0'>- Laravel, Javascript, Ajax, Bootstrap</p>
                             </div>
