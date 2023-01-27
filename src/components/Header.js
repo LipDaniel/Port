@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import file from "../CV/NhanNguyen_CV.pdf";
+import file from "../CV/NhanNguyenCV.pdf";
 
 class Header extends Component{
     render(){
