@@ -17,6 +17,9 @@ export default class Portfolio extends Component {
                 <li className="nav-item" role="presentation">
                     <a className="btn nav-link" data-toggle="pill" data-target="#pills-real" role="tab" aria-controls="pills-real" aria-selected="false">Real Estate</a>
                 </li>
+                <li className="nav-item" role="presentation">
+                    <a className="btn nav-link" data-toggle="pill" data-target="#pills-bamboo" role="tab" aria-controls="pills-bamboo" aria-selected="false">Bamboo Blinds Project</a>
+                </li>
             </ul>
             <hr/>
             <div className="tab-content mt-4" id="pills-tabContent">
@@ -97,7 +100,7 @@ export default class Portfolio extends Component {
                                     Accountant, Director, Human Resources.
                                 </p>
                                 <h6>FEATURES</h6>
-                                <p className='mb-0'>-<span className='text-danger'> Design Receipt:</span> Sale Receipt, Deposit Receipt, Transfer Receipt, Cancel Receipt, Credit Receipt</p>
+                                <p className='mb-0'>- Design Receipt: Sale Receipt, Deposit Receipt, Transfer Receipt, Cancel Receipt, Credit Receipt</p>
                                 <p className='mb-0'>- Export into pdf file</p>
                                 <p className='mb-0'>- Create a receipt when customer has paid Management all receipts</p>
                                 <p className='mb-0'>- Create an email to remind customer pay for bill before 5 days up to date</p>
@@ -108,6 +111,38 @@ export default class Portfolio extends Component {
                                 <p className='mb-3'>- Git</p>
                                 <h6>TECHNOLOGY</h6>
                                 <p className='mb-0'>- JavaFX, CSS, Jasper Report, MultiThread</p>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+                <div className="tab-pane fade" id="pills-bamboo" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div className="row">
+                        <div className="col-md-6">
+                            <iframe className='img-fluid h-100' width="550" height="360" src="https://www.youtube.com/embed/-6cVpPemBZc" title="bamboo blinds" frameBorder="4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        </div>
+                        <div className="col-md-6">
+                            <h4 className='text-center'>Missions in <span className='text-danger'>Bamboo Blinds</span></h4>
+                            <div data-spy="scroll" className='pre-scrollable' data-target="#myScrollspy" data-offset="10">
+                                <h5>FULLSTACK</h5>
+                                <h6>DESCRIPTION</h6>
+                                <p className='mb-0'>
+                                    This project specializes in selling bamboo
+                                    blinds. Without payment gateway or buy
+                                    directly on the website. So customer can
+                                    contact directly company for home
+                                    installation.
+                                </p>
+                                <h6>FEATURES</h6>
+                                <p className='mb-0'>- Design Layout: Banner, About, Product, Constructor, Contact</p>
+                                <p className='mb-0'>- Embed hotline for contact: Zalo, Messenger, Facebook, Phone</p>
+                                <p className='mb-0'>- Product Management: Create, Delete, Edit.</p>
+                                <p className='mb-0'>- Banner Management: Add, Delete, Edit</p>
+                                <p className='mb-0'>- Login/Logout feature</p>
+                                <h6>SOFTWARE</h6>
+                                <p className='mb-0'>- Visual Studio Code</p>
+                                <p className='mb-0'>- MySQL</p>
+                                <h6>TECHNOLOGY</h6>
+                                <p className='mb-0'>- Laravel, Javascript, Ajax, Bootstrap</p>
                             </div>
                         </div>      
                     </div>
