@@ -5,7 +5,7 @@ export default class Portfolio extends Component {
     return (
         <section className="section bg-custom-gray" id="portfolio">
         <div className="container">
-            <h1 className="mb-5"><span className="text-danger">My</span> Project</h1>
+            <h1 className="mb-5"><span className="text-danger">My</span> Projects</h1>
             <div className="portfolio">
             <ul className="nav nav-pills nav-fill mb-2 justify-content-center" id="pills-tab" role="tablist">
                 <li className="nav-item" role="presentation">
@@ -19,6 +19,9 @@ export default class Portfolio extends Component {
                 </li>
                 <li className="nav-item" role="presentation">
                     <a className="btn nav-link" data-toggle="pill" data-target="#pills-bamboo" role="tab" aria-controls="pills-bamboo" aria-selected="false">Bamboo Blinds Project</a>
+                </li>
+                <li className="nav-item" role="presentation">
+                    <a className="btn nav-link" data-toggle="pill" data-target="#pills-bookstore" role="tab" aria-controls="pills-bookstore" aria-selected="false">Book Store</a>
                 </li>
             </ul>
             <hr/>
@@ -143,6 +146,32 @@ export default class Portfolio extends Component {
                                 <p className='mb-3'>- MySQL</p>
                                 <h6>TECHNOLOGY</h6>
                                 <p className='mb-0'>- Laravel, Javascript, Ajax, Bootstrap</p>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+                <div className="tab-pane fade" id="pills-bookstore" role="tabpanel" aria-labelledby="pills-bookstore-tab">
+                    <div className="row">
+                        <div className="col-md-6">
+                            <iframe className='img-fluid h-100' width="550" height="360" src="https://www.youtube.com/embed/yex0v2dIqDc" title="book store" frameBorder="4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        </div>
+                        <div className="col-md-6">
+                            <h4 className='text-center'>Missions in <span className='text-danger'>Book Store</span></h4>
+                            <div data-spy="scroll" className='pre-scrollable' data-target="#myScrollspy" data-offset="10">
+                                <h6>FEATURES</h6>
+                                <p className='mb-0'>- Design Layout: dashboard, home, shopping cart, menu bar, book management</p>
+                                <p className='mb-0'>- Using Live chart for statisticing revenue and loyal customer</p>
+                                <p className='mb-0'>- Display and filter products with each category/author</p>
+                                <p className='mb-0'>- Shopping cart: display chosen products with quantity and price, client can increase and decrease quantity over there</p>
+                                <p className='mb-0'>- Book Management: Create, Read, Update, Delete.</p>
+                                <p className='mb-0'>- Category Management: Create, Read, Update, Delete.</p>
+                                <p className='mb-0'>- Author Management: Create, Read, Update, Delete.</p>
+                                <p className='mb-3'>- Publishing Management: Create, Read, Update, Delete.</p>
+                                <h6>SOFTWARE</h6>
+                                <p className='mb-0'>- Visual Studio 2022</p>
+                                <p className='mb-3'>- SQL Server 2019</p>
+                                <h6>TECHNOLOGY</h6>
+                                <p className='mb-0'>- C# .Net Framework, WPF, Single Thread</p>
                             </div>
                         </div>      
                     </div>
